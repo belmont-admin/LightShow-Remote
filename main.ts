@@ -1,5 +1,6 @@
 function sendColour (text: string) {
     channel = 1
+    radio.setGroup(channel)
     for (let index = 0; index < mbits; index++) {
         radio.sendString(text)
         channel += 1
