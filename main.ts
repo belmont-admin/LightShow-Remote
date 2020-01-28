@@ -9,7 +9,7 @@ function sendColour (text: string) {
     }
 }
 input.onButtonPressed(Button.AB, function () {
-    sendColour("amber")
+    sendColour("yellow")
 })
 input.onButtonPressed(Button.B, function () {
     sendColour("green")
